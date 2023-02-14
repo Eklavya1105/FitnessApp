@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9A0A6C5299BAF150013459C /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A0A6C4299BAF150013459C /* CityTableViewCell.swift */; };
 		C9D5D562299BA5100043B08D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5D561299BA5100043B08D /* AppDelegate.swift */; };
 		C9D5D564299BA5100043B08D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5D563299BA5100043B08D /* SceneDelegate.swift */; };
-		C9D5D566299BA5100043B08D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5D565299BA5100043B08D /* ViewController.swift */; };
+		C9D5D566299BA5100043B08D /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5D565299BA5100043B08D /* CitiesTableViewController.swift */; };
 		C9D5D569299BA5100043B08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D5D567299BA5100043B08D /* Main.storyboard */; };
 		C9D5D56B299BA5110043B08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D5D56A299BA5110043B08D /* Assets.xcassets */; };
 		C9D5D56E299BA5110043B08D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D5D56C299BA5110043B08D /* LaunchScreen.storyboard */; };
 		C9D5D579299BA5110043B08D /* FitnessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5D578299BA5110043B08D /* FitnessAppTests.swift */; };
 		C9D5D583299BA5110043B08D /* FitnessAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5D582299BA5110043B08D /* FitnessAppUITests.swift */; };
 		C9D5D585299BA5110043B08D /* FitnessAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5D584299BA5110043B08D /* FitnessAppUITestsLaunchTests.swift */; };
+		C9D5D592299BA5330043B08D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D5D591299BA5330043B08D /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9A0A6C4299BAF150013459C /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 		C9D5D55E299BA5100043B08D /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D5D561299BA5100043B08D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D5D563299BA5100043B08D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C9D5D565299BA5100043B08D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9D5D565299BA5100043B08D /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
 		C9D5D568299BA5100043B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9D5D56A299BA5110043B08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9D5D56D299BA5110043B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		C9D5D57E299BA5110043B08D /* FitnessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D5D582299BA5110043B08D /* FitnessAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppUITests.swift; sourceTree = "<group>"; };
 		C9D5D584299BA5110043B08D /* FitnessAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9D5D591299BA5330043B08D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 			children = (
 				C9D5D561299BA5100043B08D /* AppDelegate.swift */,
 				C9D5D563299BA5100043B08D /* SceneDelegate.swift */,
-				C9D5D565299BA5100043B08D /* ViewController.swift */,
+				C9D5D565299BA5100043B08D /* CitiesTableViewController.swift */,
 				C9D5D567299BA5100043B08D /* Main.storyboard */,
+				C9D5D591299BA5330043B08D /* DataModel.swift */,
 				C9D5D56A299BA5110043B08D /* Assets.xcassets */,
+				C9A0A6C4299BAF150013459C /* CityTableViewCell.swift */,
 				C9D5D56C299BA5110043B08D /* LaunchScreen.storyboard */,
 				C9D5D56F299BA5110043B08D /* Info.plist */,
 			);
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9D5D566299BA5100043B08D /* ViewController.swift in Sources */,
+				C9D5D566299BA5100043B08D /* CitiesTableViewController.swift in Sources */,
+				C9D5D592299BA5330043B08D /* DataModel.swift in Sources */,
+				C9A0A6C5299BAF150013459C /* CityTableViewCell.swift in Sources */,
 				C9D5D562299BA5100043B08D /* AppDelegate.swift in Sources */,
 				C9D5D564299BA5100043B08D /* SceneDelegate.swift in Sources */,
 			);
